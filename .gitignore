@@ -38,9 +38,6 @@ talib/*.pyd
 TradingApp.apk
 streamlit_output.txt
 
-# Windows-specific
-enable_wol.ps1
-
 # Log files
 api_server.log
 api_server.pid
