@@ -9,3 +9,57 @@ dist/
 *~
 *.egg-info/
 
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Compiled binaries and libraries
+*.dll
+*.pyd
+talib/*.dll
+talib/*.pyd
+
+# Log files
+*.log
+*.pid
+
+# Database files
+*.db
+
+# Generated files
+TradingApp.apk
+streamlit_output.txt
+
+# Windows-specific
+enable_wol.ps1
+
+# Log files
+api_server.log
+api_server.pid
+dashboard_run.log
+dashboard_control.log
+dashboard_control.pid
+streamlit_output.txt
+
+# Database
+trading_data.db
+
+# Generated APK
+TradingApp.apk
+
+# Secrets/pins
+dashboard_control_pin.txt
+
+# Compiled binaries
+android/app/src/main/java/com/tradingapp/TradingApp.apk
+*.pyd
+*.dll
+android/gradle/wrapper/gradle-wrapper.jar
